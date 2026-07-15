@@ -2,6 +2,7 @@ module ExtremePlots
 
 using Distributions, Extremes, Gadfly
 
+include("plots/diagnosticplot.jl")
 include("plots/histplot.jl")
 include("plots/mrlplot.jl")
 include("plots/probplot.jl")
