@@ -1,3 +1,11 @@
+"""
+    histplot(pd::Distribution, y::AbstractVector{<:Real};
+    title::String = "",
+    xlabel::String = "Data",
+    ylabel::String = "Model density")
+
+Generate a histogram comparing the data `y` against the theoretical density of `pd`.
+"""
 function histplot(pd::Distribution, y::AbstractVector{<:Real};
     title::String = "",
     xlabel::String = "Data",
