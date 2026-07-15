@@ -1,4 +1,4 @@
 # Release Notes
 
-## v0.0.2
+## v0.1.2
 - Add diagnosticplots() for Distributions.jl
